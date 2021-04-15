@@ -25,6 +25,13 @@ main {
    align-items: center;
 }
 
+.intro-text {
+   color: rgb(233, 233, 233);
+   font-family: 'Work Sans', sans-serif;
+   font-size: 2rem;
+   margin-left: 1.2em;
+}
+
 .slider {
    background: rgb(97, 105, 109);
    position: fixed;
@@ -97,12 +104,6 @@ a:focus {
    font-size: 1.2rem;
 }
 
-.intro-text {
-   color: rgb(233, 233, 233);
-   font-family: 'Work Sans', sans-serif;
-   font-size: 2rem;
-}
-
 /* =================
      Main Section
    ================= */
@@ -140,6 +141,7 @@ a:focus {
    }
 
    .intro-text {
+      margin-left: 0;
       font-size: 3rem;
    }
 }
